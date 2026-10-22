@@ -12,7 +12,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="2*"/>
-            <!-- <ColumnDefinition Width="3*"/> -->
+            <ColumnDefinition Width="3*"/>
         </Grid.ColumnDefinitions>
 
         <TextBlock FontWeight="Bold">Состав изделия
@@ -45,17 +45,17 @@
         </StackPanel>
         <StackPanel Grid.Column="1">
             <ListBox x:Name="MyListRight"
-                     Height="300"/>
+                     Height="450"/>
             <!-- <ComboBox x:Name="MyComboBox">
                 <ComboBoxItem Content="В работе"/>
                 <ComboBoxItem Content="Утверждено"/>
                 <ComboBoxItem Content="Аннулировано"/>
             </ComboBox> -->
         </StackPanel>
-        <!-- <StackPanel Grid.Column="2">
+        <StackPanel Grid.Column="2">
             <WebBrowser x:Name="MyBrowser"
-                        Height="300"/>
-        </StackPanel> -->
+                        Height="600"/>
+        </StackPanel>
 
         <Button x:Name="ApproveButton"
                 Grid.Column="1"

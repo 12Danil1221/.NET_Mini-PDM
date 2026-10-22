@@ -34,22 +34,47 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
 
-        // string htmlContent = """
-        //         <html lang="en">
-        //         <head>
-        //             <meta charset="UTF-8">
-        //             <title>Document</title>
-        //             <style>
-        //                 h1 { color: red; }
-        //             </style>
-        //         </head>
-        //         <body>
-        //             <h1>Hello!</h1>
-        //         </body>
-        //         </html>
-        //         """;
+        string htmlContent = """
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <title>Document</title>
+                    <style>
+                        h1 { color: red; }
+                    </style>
+                </head>
+                <body>
+                    <h2>[Виды ручного тестирования: ]</h2>
+                    <h3>Функциональное (Модульное)(Интеграционное)(Системное)(Приемочное тестирование)</h3>
+                    <h3>Нефункциональное тестирование</h3>
+                    <h3>Нагрузочное тестирование</h3>
+                    <h3>Регрессионное тестирование</h3>
+                    <h3>Негативное</h3>
+                    <h3>Тестирование совместимости</h3>
+                    <br>
+                    <h2>[Техники тест-дизайна: ]</h2>
+                    <h3>Эквивалентные классы</h3>
+                    <h3>Граничные значения</h3>
+                    <h3>Попарное тестирование</h3>
+                    <br>
+                    <h2>[Методы тестирования: ]</h2>
+                    <h3>Черного ящика(поверхностно)</h3>
+                    <h3>Серого ящика(смешанно)</h3>
+                    <h3>Белого ящика(внутренняя логика)</h3>
+                    <br>
+                    <h2>[Жизненный цыкл ручного тестирования]</h2>
+                    <h3>Анализ требований</h3>
+                    <h3>Планирование</h3>
+                    <h3>Разработка тест-кейсов/чек-листов</h3>
+                    <h3>Выполнение тестов</h3>
+                    <h3>Дефекты</h3>
+                    <h3>Повторная проверка</h3>
+                    <h3>Регресс</h3>
+                </body>
+                </html>
+                """;
 
-        // MyBrowser.NavigateToString(htmlContent);
+        MyBrowser.NavigateToString(htmlContent);
     }
     public async Task ReadAsync(string path, CancellationToken ct)
     {
@@ -75,7 +100,6 @@ public partial class MainWindow : Window
         int WarningFiles = 0;
         int ErrorFiles = 0;
         ObservableCollection<WindowOtchet> otchets = new ObservableCollection<WindowOtchet>();
-
         string folderPath = "cad-export";
         int objectId = 1;
         string[] extensions = { "*.m3d", "*.a3d" };
@@ -252,7 +276,7 @@ public partial class MainWindow : Window
                     }
                     catch (Exception ex)
                     {
-                        // MessageBox.Show(ex.ToString());
+                        MessageBox.Show(ex.ToString());
                     }
                 }
             }

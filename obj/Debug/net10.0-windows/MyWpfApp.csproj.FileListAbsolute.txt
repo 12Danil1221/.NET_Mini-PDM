@@ -46,6 +46,7 @@ D:\Projects_S21\peerReview\tzInfoteks\dotnet\MyWpfApp\obj\Debug\net10.0-windows\
 D:\Projects_S21\peerReview\tzInfoteks\dotnet\MyWpfApp\obj\Debug\net10.0-windows\MyWpfApp.g.resources
 D:\Projects_S21\peerReview\tzInfoteks\dotnet\MyWpfApp\obj\Debug\net10.0-windows\MyWpfApp.GeneratedMSBuildEditorConfig.editorconfig
 D:\Projects_S21\peerReview\tzInfoteks\dotnet\MyWpfApp\obj\Debug\net10.0-windows\MyWpfApp.csproj.CoreCompileInputs.cache
+D:\Projects_S21\peerReview\tzInfoteks\dotnet\MyWpfApp\obj\Debug\net10.0-windows\MyWpfApp.sourcelink.json
 D:\Projects_S21\peerReview\tzInfoteks\dotnet\MyWpfApp\obj\Debug\net10.0-windows\MyWpfApp.csproj.Up2Date
 D:\Projects_S21\peerReview\tzInfoteks\dotnet\MyWpfApp\obj\Debug\net10.0-windows\MyWpfApp.dll
 D:\Projects_S21\peerReview\tzInfoteks\dotnet\MyWpfApp\obj\Debug\net10.0-windows\refint\MyWpfApp.dll
